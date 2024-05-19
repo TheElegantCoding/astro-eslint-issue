@@ -1,0 +1,25 @@
+{
+  "name": "astro-issue-eslint",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.7.0",
+    "astro": "^4.8.6"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.18.1",
+    "@typescript-eslint/parser": "^7.9.0",
+    "eslint": "^9.0.0",
+    "eslint-plugin-astro": "^1.1.2",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.9.0"
+  }
+}
